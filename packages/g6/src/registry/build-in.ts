@@ -2,6 +2,7 @@ import { fade, translate } from '../animations';
 import { ZoomCanvas } from '../behaviors';
 import {
   Circle,
+  CircleCombo,
   Cubic,
   CubicHorizontal,
   CubicVertical,
@@ -47,7 +48,9 @@ export const BUILT_IN_PLUGINS = {
   behavior: {
     'zoom-canvas': ZoomCanvas,
   },
-  combo: {},
+  combo: {
+    circle: CircleCombo,
+  },
   edge: {
     cubic: Cubic,
     line: Line,
