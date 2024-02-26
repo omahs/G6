@@ -131,8 +131,6 @@ export class BaseModule<T extends LooselyModuleOption> {
 
     this.destroyed = true;
   }
-
-  // before create after destroy
 }
 
 /**
