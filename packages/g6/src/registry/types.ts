@@ -3,10 +3,9 @@ import type { STDAnimation } from '../animations/types';
 import type { Behavior } from '../behaviors/types';
 import type { STDPalette } from '../palettes/types';
 import type { Theme } from '../themes/types';
-import type { Edge, Node } from '../types';
+import type { Combo, Edge, Node } from '../types';
 
 // TODO 待使用正式类型定义 / To be used formal type definition
-declare type Combo = unknown;
 declare type Widget = unknown;
 
 /**
